@@ -1,0 +1,84 @@
+body,head{
+    padding: 0%;
+    margin: 0%;
+}
+
+#winter-background{
+    background-image: url(img/snow_winter_trees.jpg);
+    background-size: cover;
+    
+    max-width:100%;
+    height: 50vh;
+
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.center>h1{
+    text-align: center;
+    
+}
+
+.flexspread{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.red-border{
+    border-style: solid;
+    border-color: red;
+    border-width: 1%;
+    border-radius: 3%;
+    padding: 1%;
+}
+.img-links{
+    width: 97%;
+}
+
+.img-links>a>img{
+    
+    height: 10vh;
+    width: auto;
+    
+}
+.img-links>a{
+    height: 10vh;
+    width: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 3%;
+}
+.img-and-links>img{
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+.img-and-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#christmasTree{
+    width: 1%;
+}
+#christmasTree>img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+#left-side{
+    width: 30%;
+}
