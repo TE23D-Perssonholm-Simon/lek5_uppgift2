@@ -66,19 +66,42 @@ body,head{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 #christmasTree{
-    width: 1%;
+    width: 10%;
 }
 #christmasTree>img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .container{
     height: 100vh;
     width: 100%;
+    box-sizing: border-box;
 }
 #left-side{
-    width: 30%;
+    width: 20%;
+}
+#center-section{
+    width: 70%;
+}
+#right-section{
+    width: 10%;
+}
+.no-margin>div{
+    margin: 0px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.christmas-font{
+    font-family: "Mountains of Christmas";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 400%;
 }
